@@ -1,0 +1,13 @@
+pyarrow
+ibis-framework[duckdb,snowflake,clickhouse,examples]==10.0.0.dev256
+pandas
+python-dotenv
+duckdb-engine
+duckdb
+ipykernel
+requests
+tqdm
+plotly
+notebook
+ipywidgets
+itables

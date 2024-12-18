@@ -1,0 +1,16 @@
+services:
+    python:
+        container_name: observable-python-ssh
+        hostname: dev
+        build:
+            context: .
+            args:
+                NEWUSER: ${NEWUSER} # from .env file
+                PASSWORD: ${PASSWORD} # from .env file
+        env_file:
+            - .env
+        volumes:
+            - ./workspace:/workspace
+        ports:
+            - 2401:22
+        restart: unless-stopped

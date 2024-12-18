@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Default High Contrast Light",
+    "editor.fontSize": 14,
+    "workbench.fontAliasing": "auto",
+    "security.workspace.trust.untrustedFiles": "open",
+    "remote.SSH.defaultExtensions": [
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-toolsai.datawrangler"
+    ]
+}

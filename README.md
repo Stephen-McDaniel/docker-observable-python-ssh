@@ -14,7 +14,7 @@ docker compose build (takes 3-30 minutes, depending on internet and system speed
 docker compose up -d
 
 Connect to the running image (change localhost to your ip/server name):
-ssh -p 4301 -o StrictHostKeyChecking=no root@localhost
+ssh -p 2401 -o StrictHostKeyChecking=no root@localhost
 
 Open a command line and verify that observable is installed: 
 # verify observable installed
